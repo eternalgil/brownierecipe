@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 40px 10px;
+    padding: 0px;
+}
+h1 {
+    text-align: center;
+    margin: 30px 0px;
+    background-color: chocolate;
+    color: rgb(230, 223, 213);
+}
+/* Instructions and ingredients */
+h3 {
+    text-align: left;
+    padding: 5px 40px;
+}
+.instruction {
+    text-align: left;
+    padding: 5px 40px;
+}
+ul, ol {
+    padding: 10px 40px;
+    margin: 10px 40px;
+}
+/*begin form and button styling*/
+.review {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 0 20px;
+}
+button {
+    border: 1px solid black;
+    padding: 5px 15px;
+    background-color: chocolate;
+    color:rgb(230, 223, 213);
+    border-radius: 15px;
+}
+button:hover {
+    background-color: rgb(84, 6, 6);
+    color: white;
+}
+form {
+    margin: 10px 50px;
+}
